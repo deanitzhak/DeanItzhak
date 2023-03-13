@@ -1,0 +1,164 @@
+/*the css only for regular behave and connections*/
+*{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#Nav_Holder{
+    z-index: 1;
+    display: none;
+    width: min-content;
+    height: fit-content;
+    position: fixed;
+    left: 90%;
+    top: 0%;
+    font-size: 20px;
+    background-color: white;
+    margin: auto;
+    transition:all  0.7s;
+}
+/*second page*/
+#Education{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+/*Shenkar*/
+#Shenkar_Item{
+    padding-bottom: 15px;
+    display: flex;
+    width: 600px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+#Shenkar_Logo{
+    height: 96px;
+    width: 116px;
+    padding: 10px;
+    margin: auto;
+}
+#Shenkar_des{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px;
+
+}
+/*Jhon Item*/
+#Jhon_Item{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 600px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}#Jhon_Logo{
+    height: 96px;
+    width: 116px;
+    padding: 10px;
+    margin: auto;
+}#Jhon_des{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px;
+
+}
+/*NetcraftAcademy Item*/
+#NetcraftAcademy_Item{
+    padding-bottom: 15px;
+    display: flex;
+    width: 600px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+#NetcraftAcademy_Logo{
+    height: 96px;
+    width: 116px;
+    padding: 10px;
+    margin: auto;
+}
+#NetcraftAcademy_des{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px;
+
+}
+/*b6 Item*/
+#b6_Item{
+    padding-bottom: 15px;
+    display: flex;
+    width: 600px;
+    height: 100%;
+    position: relative;
+    margin: auto;  
+}
+#b6_Logo{
+    height: 96px;
+    width: 116px;
+    padding: 10px;
+    margin: auto;
+}#b6_des{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px;
+
+}
+.Gallery_Item{
+    height: 491px;
+    width: 20%;
+    clip-path: inset(0px 0px 0px 0px);
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.BackButton {
+    background-color: transparent;
+    position: relative;
+    background-color: none; 
+    border: none;
+    color: black;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    transition: all 0.4s;
+    z-index: 1;
+  }
+  #Work_Photography_Title{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+
+  }
+  .All_Gallery_Images{
+    display: flex;
+    margin: auto;
+  }
+  .Tec_Icon{
+    position: relative;
+    display: flex;
+    padding: 5px;
+  }
+  .Tec_Holder{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+  }
